@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAMI Projects</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="preloader" id="preloader"></div>
+    <header id="site-header">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="FAMI Projects Logo" class="logo">
+            <span class="studio-name">FAMI Projects</span>
+        </div>
+        <div class="nav-wrapper">
+            <nav id="main-nav"></nav>
+            <div class="lang-tooltip-container">
+                <button id="lang-toggle" class="btn-lang">
+                    <svg class="globe-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <line x1="2" y1="12" x2="22" y2="12"></line>
+                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    <span class="lang-badge" id="lang-text">RU</span>
+                </button>
+                <span class="lang-tooltip" id="lang-tooltip">Переключить язык</span>
+            </div>
+        </div>
+    </header>
+    <main id="app"></main>
+    <footer id="site-footer"></footer>
+    <script src="script/main.js"></script>
+</body>
+</html>
